@@ -37,7 +37,7 @@ app.on('ready', () => {
     });
 
     // Load your frontend
-    mainWindow.loadURL('http://localhost:3000');
+    mainWindow.loadURL('process.env.PORT');
 
     mainWindow.on('closed', () => {
         mainWindow = null;
