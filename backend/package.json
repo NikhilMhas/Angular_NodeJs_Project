@@ -2,10 +2,9 @@
   "name": "rest_api",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "start": "electron .",
-    "backend": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -20,12 +19,9 @@
     "nodemon": "^3.1.9",
     "pg": "^8.13.1",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.37.5",
-    "socket.io": "^4.8.1"
+    "sequelize": "^6.37.5"
   },
   "devDependencies": {
-    "electron": "^33.2.1",
-    "electron-packager": "^17.1.2",
     "sequelize-cli": "^6.6.2"
   }
 }
