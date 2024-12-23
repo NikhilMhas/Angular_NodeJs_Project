@@ -3,10 +3,11 @@
 const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io"); 
-const cors = require('cors');
-app.use(cors());
+
 const app = express();
 
+const cors = require('cors');
+app.use(cors());
 
 const server = http.createServer(app);
 
