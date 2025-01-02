@@ -1,5 +1,5 @@
 const { authentication, restrictTo } = require("../controller/authController");
-const { createProject, getAllProject, getProjectById, updateProject, deleteProject } = require("../controller/projectController");
+const { createProject, getAllProject, getProjectById, updateProject, deleteProject,getChartData } = require("../controller/projectController");
 
 const router = require("express").Router();
 router.post("/" ,createProject);
